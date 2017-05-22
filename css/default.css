@@ -4,7 +4,6 @@
   margin:0;
   padding:0;
 }
-
 body{
   background-color:gray;
   margin: 48px 0 0 0;
@@ -39,6 +38,12 @@ header{
   background-color:yellow;
   width: 500px;
   float: left;
+}
+#pacman_jump_pcture{
+  width: 24px;
+  position: absolute;
+  left: 50px;
+  top: 50px;
 }
 aside{
   background-color:blue;
