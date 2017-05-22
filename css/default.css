@@ -7,9 +7,13 @@
 
 body{
   background-color:gray;
+  margin: 48px 0 0 0;
 }
 header{
   background-color:orange;
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 #main{
   background-color:white;
@@ -21,8 +25,10 @@ header{
   background-color: red;
   color: black;
   width: 240px;
+  height: 80px;
   margin: 5px;
   float: left;
+  overflow: hidden;
 }
 #main1{
   background-color:green;
@@ -38,6 +44,9 @@ aside{
   background-color:blue;
   width: 200px;
   float: right;
+  position: relative;
+  top: 20px;
+  right: 10px;
 }
 footer{
   background-color:purple;
